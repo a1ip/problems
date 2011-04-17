@@ -13,7 +13,9 @@
 # Используем тот факт что 'A'.codepoints будет равен 65
 sum = 0
 IO.read("names.txt").split(',').map{ |w| w[1..-2]}.sort.each_with_index do |word,i|
-# Варианты этой строчки с форума красивые и короткие, но чуток более медленные чем мой(:
+# Варианты этой строчки с форума красивые и короткие, но все кроме первого
+# чуток более медленные чем мой(:
+# IO.read("names.txt").delete('"').split(',').sort.each_with_index do |word,i|
 # eval('[' + IO.read("names.txt") + ']').sort.each_with_index do |word,i|
 # IO.read("names.txt").scan(/[A-Z]+/).sort.each_with_index do |word,i| 
   value = 0
