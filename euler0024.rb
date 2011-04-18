@@ -12,4 +12,4 @@
 # Вообще-то типичная однострочная программа ;о)
 # time ruby -e 'puts "Миллионная перестановка #{ (0..9).to_a.permutation.to_a.sort[999999].join}"'
 
-puts "Миллионная перестановка #{ (0..9).to_a.permutation.to_a.sort[999999].join}"'])}"
+puts "Миллионная перестановка #{ (0..9).to_a.permutation.to_a.sort[999999].join}"
